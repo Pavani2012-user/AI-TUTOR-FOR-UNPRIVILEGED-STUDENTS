@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Voice AI Tutor</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <div class="app-center">
+    <div class="chat-container">
+      <div class="chat-header">Voice AI Tutor</div>
+
+      <div id="chat-window" class="chat-window">
+        <!-- Chat messages will appear here -->
+      </div>
+
+      <div class="chat-input-area">
+        <input type="text" id="question" placeholder="Type or speak your question..." />
+        <button onclick="startListening()" title="Speak">🎤</button>
+        <button onclick="askAI()" title="Send">➤</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
